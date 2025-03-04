@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("https://www.capgemini.com/wp-content/uploads/2025/02/B2B-in-Telco-web-banner.jpg?w=2880&quality=70");
+    overflow: hidden;
+    
+}
+.header{
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 260px;
+    object-fit: cover;
+}
+#navigation ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+#navigation ul li{
+    position: relative;
+    list-style: none;
+    padding-right: 20px;
+    font-size: 25px;
+    
+}
+li::after{
+content: "";
+position: absolute;
+background-color: aquamarine;
+height: 2px;
+width: 0;
+left: 0;
+bottom: -3px;
+transition: 0.3s;
+}
+
+li:hover::after{
+width: 80%;
+}
+
+img{
+    vertical-align: middle;
+    padding-left: 20px;
+    margin-right: 20px;
+
+}
+span{
+    text-transform: lowercase; 
+    margin-left: 5px;          
+}
+.page1{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 75px;
+    background-color: rgba(83, 122, 220, 0.763);
+    height: 47vh;
+    width: 49%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.page1 h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-spacing: 1px;
+    padding: 80px 30px;
+
+}
+.page1 a{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 37px;
+    text-decoration: none;
+}
+.page1 a h3{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    word-spacing: 0.5px;
+}
+.footer{
+    height: 20vh;
+     margin-top: 400px; 
+     display: flex;
+     justify-content: space-between;
+}
+#left-part h2{
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+#right-part{
+    padding: 40px 30px 0 0;
+}
+#right-part a{
+    padding-right: 30px;
+}
+#right-part a i{
+    font-size: 30px;
+}
