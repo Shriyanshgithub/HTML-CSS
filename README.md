@@ -1,3 +1,2 @@
 "# HTML-CSS" 
-
-![UC2 result](./photo-gallery/images/Screenshot%202025-03-05%20151739.png)
+![UC3 layout](./card-layout/assets/Screenshot%202025-03-06%20110137.png)
